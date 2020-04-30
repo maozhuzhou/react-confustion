@@ -1,0 +1,12 @@
+json-server --watch db.json 
+json-server --watch db.json -d 2000 
+json-server --watch db.json -d 2000 -p 3001
+json-server --watch db.json --host 192.168.31.102
+ 
+This should start up a server at port number 3000£º
+http://localhost:3000/dishes
+http://localhost:3000/promotions
+http://localhost:3000/leaders
+http://localhost:3000/feedback
+
+http://192.168.31.102:3000/dishes
